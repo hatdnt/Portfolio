@@ -37,8 +37,8 @@ const App = () => {
                 ))}
               </div>
             } />
-            <Route path="/project-one" element={<iframe src="/project-one/index.html" className="w-full h-full"></iframe>} />
-            <Route path="/project-two" element={<iframe src="/project-two/index.html" className="w-full h-full"></iframe>} />
+            <Route path="/project-one" element={<iframe src="/project-one/index.html" title="Project One" className="w-full h-full"></iframe>} />
+            <Route path="/project-two" element={<iframe src="/project-two/index.html" title="Project Two" className="w-full h-full"></iframe>} />
             {/* Tambahkan route untuk proyek lain */}
           </Routes>
         </main>
