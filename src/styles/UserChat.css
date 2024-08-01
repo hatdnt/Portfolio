@@ -1,0 +1,55 @@
+/* src/styles/UserChat.css */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh; /* Menggunakan 80vh untuk tinggi penuh modal */
+  max-height: 80vh; /* Pastikan tinggi maksimal tidak melebihi 80vh */
+  width: 100%;
+  max-width: 600px; /* Batas lebar maksimal */
+  margin: auto; /* Pusatkan secara horizontal */
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.input-container {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  background-color: white; /* Tambahkan background color untuk memastikan terlihat */
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

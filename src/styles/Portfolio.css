@@ -1,0 +1,23 @@
+.portfolio {
+    padding: 2rem;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.project-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: calc(33.333% - 2rem);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}

@@ -1,0 +1,40 @@
+.admin-chat-container {
+    display: flex;
+  }
+  
+  .user-list {
+    width: 200px;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .user-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .user-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .chat-container {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .messages {
+    height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+  }
